@@ -10,3 +10,4 @@ const index = process.argv[2]
 console.log(`number is ${getNumber(numbers, index)}`)
 
 
+
