@@ -1,5 +1,8 @@
 // numbers is array of numbers
 function getNumber(numbers, index) {
+	if (!numbers[index]) {
+		throw new Error('no number for this index')
+	}
 	return numbers[index]
 }
 
