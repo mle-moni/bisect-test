@@ -21,3 +21,4 @@ console.log(`number is ${getNumber(numbers, index)}`)
 
 
 
+
